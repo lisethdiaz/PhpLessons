@@ -30,16 +30,16 @@
                     echo "You need to select a method!";
                 break;
                 case "Add":
-                    echo $result1 + $result2 ;
+                    echo $result1 + $result2;
                 break;
                 case "Subtract":
-                    echo $result1 - $result2 ;
+                    echo $result1 - $result2;
                 break;
                 case "Multiply":
-                    echo $result1 * $result2 ;
+                    echo $result1 * $result2;
                 break;
                 case "Divide":
-                    echo $result1 / $result2 ;
+                    echo $result1 / $result2;
                 break;
             }
 
