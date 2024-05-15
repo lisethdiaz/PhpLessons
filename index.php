@@ -2,10 +2,22 @@
   <?php 
   include 'includes/header.php'
   ?>
+  <?php
+    include_once 'includes/dbh.inc.php';
+  ?>
     <form method="GET">
         <input type="text" name="person">
         <button>SUBMIT</button>
 </form>
+
+    <main>
+        <div class="wrapper-main">
+            <section class="section-default">
+                <p>You are logged out!</p>
+                <p>You are logged in!</p>
+            </section>
+        </div>
+    </main>
     <?php 
         $x = 1;
         if ($x == 1) {
@@ -44,6 +56,11 @@
                     echo "There is no answer";
 
         }
+
+        echo $_SESSION['username'];
+          $conn;
     ?>
+  
+    
 </body>
 </html>
